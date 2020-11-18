@@ -1,0 +1,49 @@
+body {
+    background-color: #fbf6f0;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.container {
+    margin: 0 auto;
+    padding: 10px 50px 50px;
+    width: 220px;
+    height: 130px;
+    border: 5px solid #ffa45b;
+    border-radius: 15px;
+    background-image: url("https://lh3.googleusercontent.com/9x4Hl2K6mJ2udnKnkJj0WWYBSk9tpZIAKzoo56DGraKPP26C8jz48WIgt3rX3eYeXNepEq8uWrQhGAEc8taWbxkPI6OiFUa-Kg0O-sfNHmKDlY1CKXo0QSN4Kj06huzH_pT06_vP");
+}
+
+.intro {
+    margin: 0 auto 50px;
+    width: 50%;
+    color: #7fdbda;
+    font-size: larger;
+}
+
+h1 {
+    color: #ffa45b;
+    text-align: center;
+}
+
+
+.yourGuess {
+    text-align: center;
+    color: #7fdbda;
+    font-size: 30px;
+}
+
+.submitButton {
+margin-top: 20px;
+background-color: #ffda77;
+color: #ffa45b;
+border: 0.5px solid;
+padding: 5px 30px;
+border-radius: 8px;
+cursor: pointer;
+font-size: 15px;
+}
+
+.submitButton:hover {
+    background-color:#aee6e6;
+}
