@@ -1,28 +1,67 @@
 body {
-    background-color: #fbf6f0;
+    background-color: #8ED4D6;
     font-family: 'Oswald', sans-serif;
 }
 
-
-.container {
-    margin: 0 auto;
-    padding: 10px 50px 50px;
-    width: 220px;
-    height: 130px;
-    border: 5px solid #ffa45b;
-    border-radius: 15px;
-    background-image: url("https://lh3.googleusercontent.com/9x4Hl2K6mJ2udnKnkJj0WWYBSk9tpZIAKzoo56DGraKPP26C8jz48WIgt3rX3eYeXNepEq8uWrQhGAEc8taWbxkPI6OiFUa-Kg0O-sfNHmKDlY1CKXo0QSN4Kj06huzH_pT06_vP");
+img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-radius: 7px;
 }
+
+.image1 {
+    position: absolute;
+    width: 5%;
+  left: 180px;
+  top: 3%;
+  transform: rotate(10deg);
+}
+
+.image2 {
+    position: absolute;
+    width: 5%;
+  right: 180px;
+  top: 5%;
+  transform: rotate(40deg);
+}
+.image3 {
+    position: absolute;
+    width: 5%;
+  left: 180px;
+  top: 40%;
+  transform: rotate(-10deg);
+}
+.image4 {
+    position: absolute;
+    width: 5%;
+  right: 180px;
+  top: 40%;
+  transform: rotate(30deg);
+}
+.image5 {
+    position: absolute;
+    width: 5%;
+  right: 180px;
+  top: 70%;
+  transform: rotate(-20deg);
+}
+.image6 {
+    position: absolute;
+    width: 5%;
+  left: 180px;
+  top: 75%;
+  transform: rotate(20deg);
+}
+
 
 .intro {
     margin: 0 auto 50px;
     width: 50%;
-    color: #7fdbda;
+    color: #F7941D;
     font-size: larger;
 }
 
 h1 {
-    color: #ffa45b;
+    color: #F04A56;
     text-align: center;
 }
 
@@ -46,4 +85,17 @@ font-size: 15px;
 
 .submitButton:hover {
     background-color:#aee6e6;
+}
+
+footer {
+    padding-top: 100px;
+    text-align: center;
+font-size: 10px;
+text-decoration: none;
+color: #ffda77;
+}
+
+a {
+    color: #ffda77;
+
 }
