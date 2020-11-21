@@ -1,3 +1,6 @@
+
+/** Styling for all elements **/
+
 body {
     background-color: #8ED4D6;
     font-family: 'Oswald', sans-serif;
@@ -8,6 +11,8 @@ img {
 border-radius: 7px;
 }
 
+
+/** Images styling **/ 
 .image1 {
     position: absolute;
     width: 5%;
@@ -53,6 +58,10 @@ border-radius: 7px;
 }
 
 
+
+
+/** Text styling **/
+
 .intro {
     margin: 0 auto 50px;
     width: 50%;
@@ -65,12 +74,30 @@ h1 {
     text-align: center;
 }
 
+footer {
+    padding-top: 100px;
+    text-align: center;
+font-size: 10px;
+text-decoration: none;
+color: #ffda77;
+}
+
+a {
+    color: #ffda77;
+
+}
+
+
+
+/** Button Styling **/
 
 .yourGuess {
     text-align: center;
     color: #7fdbda;
     font-size: 30px;
 }
+
+
 
 .submitButton {
 margin-top: 20px;
@@ -87,15 +114,53 @@ font-size: 15px;
     background-color:#aee6e6;
 }
 
-footer {
-    padding-top: 100px;
-    text-align: center;
-font-size: 10px;
-text-decoration: none;
-color: #ffda77;
+/** Media Queries **/
+@media (max-width: 576px) { 
+    .block-left {
+        left: 15px;
+      }
+      
+      .block-right {
+        right: 15px;
+      }
+
 }
 
-a {
-    color: #ffda77;
+
+
+@media (min-width: 576px) { 
+    .block-left {
+        left: 15px;
+      }
+      
+      .block-right {
+        right: 15px;
+      }
 
 }
+
+@media (min-width: 768px) { 
+    .block-left {
+        left: 50px;
+      }
+      
+      .block-right {
+        right: 50px;
+      }
+      
+
+}
+
+
+@media (min-width: 992px) { 
+    .block-left {
+      left: 150px;
+    }
+    
+    .block-right {
+      right: 150px;
+  
+    }
+    
+ }
+
