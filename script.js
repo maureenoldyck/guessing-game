@@ -1,9 +1,12 @@
 (function () {
 
 
+// Element listener when the user submit the number
     document.getElementById("guess-form").addEventListener("submit", compareUserGuess);
 
 
+// Compare function with an event preventer to not let de default function of refresh get through
+// In this function we call the generete secret number to compare with the users number they submitted
     function compareUserGuess(event) {
         event.preventDefault();
 
@@ -20,11 +23,13 @@
         }
     }
 
+// This function generates a random number between 1 and 22 and returns that number
     function generateSecretNumber() {
         const secretNumber = getRandomNumber(1, 22);
         return secretNumber;
     }
 
+// This function generates a random number
     function getRandomNumber(min, max) {
         return Math.round(Math.random() * (max - min) + min);
     }
